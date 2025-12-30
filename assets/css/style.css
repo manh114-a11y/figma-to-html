@@ -21,6 +21,17 @@ body{
 a{
     text-decoration: none;
 }
+
+.heading-lv2{
+    color: #171100;
+    font-family: var(--font-heading);
+font-weight: 700;
+font-size: 3.8rem;
+line-height: 1.27;
+letter-spacing: -0.76px;
+
+}
+
 .btn{
     display: inline-block;
     min-width: 118px;
@@ -266,4 +277,44 @@ line-height: 1.23;
 
 .hero .stats strong:nth-child(2){
     margin-left: 28px;
+}
+
+.popular{
+    padding: 65px 0;
+    margin-top: 135px;
+}
+
+.popular-top{
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+}
+.popular-top .desc{
+    color: #5F5B53;
+margin-top: 16px;
+width: 458px;
+font-size: 1.8rem;
+line-height: 1.67;
+}
+
+.popular-top .controls{
+    display: flex;
+    gap: 18px;
+}
+.popular-top .control-btn{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 40px;
+height: 40px;
+border-radius: 50%;
+    background: transparent;
+    color: var(--primary-color);
+    border: 1px solid var(--primary-color);
+}
+.popular-top .control-btn:hover{
+    background: var(--primary-color);
+    color: white;
+    cursor: pointer;
+
 }
