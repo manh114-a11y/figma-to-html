@@ -418,8 +418,14 @@ border-radius: 25px;
     background: #2E2100;
 }
 
+.feedback-list {
+    display: flex;
+    overflow: hidden;
+}
+
 .feedback-item{
     display: flex;
+    flex-shrink: 0;
 }
 
 .feedback-item .avatar{
